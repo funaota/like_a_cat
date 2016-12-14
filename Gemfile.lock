@@ -86,7 +86,7 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    notee (1.0.8)
+    notee (1.1.1)
       rails
       rb-readline
       redcarpet
