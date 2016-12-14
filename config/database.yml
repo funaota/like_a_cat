@@ -15,7 +15,8 @@ default: &default
   pool: 5
   username: root
   password:
-  socket: /tmp/mysql.sock
+  #socket: /tmp/mysql.sock #mac
+  socket: /var/lib/mysql/mysql.sock #vps
 
 development:
   <<: *default
@@ -50,5 +51,3 @@ test:
 production:
   <<: *default
   database: like_a_cat_production
-  username: like_a_cat
-  password: <%= ENV['LIKE_A_CAT_DATABASE_PASSWORD'] %>
