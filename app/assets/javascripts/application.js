@@ -12,5 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+
+//////// default notee setting
+
+$(document).on('ready', function() {
+  hljs.initHighlightingOnLoad();
+});
+
+//////// notee setting end
+

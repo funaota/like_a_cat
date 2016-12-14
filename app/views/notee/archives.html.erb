@@ -1,0 +1,10 @@
+<div class="notee_main">
+  <h2>Archive List</h2>
+  <% @archives.each do |key, count| %>
+      <div class="notee_list">
+        <a href="/archives/<%= key %>">
+          <h3><%= key %> (<%= count %>)</h3>
+        </a>
+      </div>
+  <% end %>
+</div>
