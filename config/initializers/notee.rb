@@ -22,5 +22,5 @@ Notee.configure do |config|
   }
 
   # google-analytics
-  config.google_analytics = "hogehogehogehoge"
+  config.google_analytics = "UA-67919239-3"
 end
