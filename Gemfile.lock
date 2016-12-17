@@ -86,7 +86,7 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    notee (1.1.2)
+    notee (1.1.2.2)
       rails
       rb-readline
       redcarpet
@@ -176,7 +176,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   mysql2 (>= 0.3.18, < 0.5)
-  notee
+  notee (~> 1.1.2.2)
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
   sass-rails (~> 5.0)

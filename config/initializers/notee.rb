@@ -18,7 +18,8 @@ Notee.configure do |config|
       url: "http://hogehoge.com",
       keyword: "hoge, hoge, hoge",
       description: "i like a cat. and, i want to live like a cat",
-      og_image: "http://hogehoge.com/hoge.png"
+      og_image: "http://hogehoge.com/hoge.png",
+      twitter_id: "@dev_funaota"
   }
 
   # google-analytics
