@@ -9,14 +9,14 @@ Notee.configure do |config|
   config.notee_password = ENV['NOTEE_PASSWORD']
 
   # recaptcha
-  config.recaptcha_key = ENV['RECAPTCHA_KEY']
+  config.recaptcha_key =  ENV['RECAPTCHA_KEY']
   config.recaptcha_secret_key = ENV['RECAPTCHA_SECRET_KEY']
 
   # blog
   config.blog_meta = {
       title: "Like a cat",
-      url: "http://hogehoge.com",
-      keyword: "hoge, hoge, hoge",
+      url: "https://cat.closedcafe.com",
+      keyword: "funaota, funao, like a cat, cat, 学生プログラマ",
       description: "i like a cat. and, i want to live like a cat",
       og_image: "http://hogehoge.com/hoge.png",
       twitter_id: "@dev_funaota"

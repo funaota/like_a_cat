@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'notee', '~> 1.1.2.2'
+gem 'notee', :path => "~/02_lib/notee"
 gem 'dotenv-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

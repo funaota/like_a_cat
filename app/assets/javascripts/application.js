@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+
 //= require_tree .
 
 //////// default notee setting
@@ -21,4 +22,6 @@ $(document).on('ready', function() {
 });
 
 //////// notee setting end
+
+
 

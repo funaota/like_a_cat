@@ -9,7 +9,7 @@
 
     categories.each do |category|
       @category_view << '<a href="/categories/' + category.slug + '">'
-      @category_view << ('<li class="notee_list">' + category.name.to_s + " (#{get_category_posts_count(category)})")
+      @category_view << ("<li>" + category.name.to_s + " (#{get_category_posts_count(category)})")
       recursive_display_category(category)
     end
 
@@ -33,7 +33,7 @@
   end
 %>
 
-<div class="notee_main">
-  <h2>Category List</h2>
+<h3>Category</h3>
+<div class="notee_sidebar_content">
   <%= loop_categories(get_parent_categories_arr) %>
 </div>

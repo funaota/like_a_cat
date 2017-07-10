@@ -1,3 +1,13 @@
+PATH
+  remote: ~/02_lib/notee
+  specs:
+    notee (1.1.2.4)
+      rails
+      rb-readline
+      redcarpet
+      sass
+      whenever
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -86,12 +96,6 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    notee (1.1.2.2)
-      rails
-      rb-readline
-      redcarpet
-      sass
-      whenever
     puma (3.6.2)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -176,7 +180,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   mysql2 (>= 0.3.18, < 0.5)
-  notee (~> 1.1.2.2)
+  notee!
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
   sass-rails (~> 5.0)
